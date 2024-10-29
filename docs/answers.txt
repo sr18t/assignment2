@@ -1,0 +1,25 @@
+1.
+2. The number of commits done to the repository so far is 10.
+I used git rev-list --count HEAD
+3.README.md was last modified on 10/29/2024. I used git log -1 --format=%cd -- README.md
+4. **Reasons for Using Branches in a Git Repository**
+   - Branches allow multiple developers to work on different features or bug fixes simultaneously without interfering with each other’s work.
+   - Branches help in maintaining a stable main branch (e.g., `main` or `master`) while allowing development to happen in isolated environments, making it easier to manage releases and versioning.
+5. . **Difference Between `git log` and `git status`**
+   - `git log` displays the commit history, showing all the commits made to the repository, including commit messages, authors, and timestamps.
+   - `git status` provides the current state of the working directory and staging area, indicating which files are staged, unstaged, or untracked.
+
+6. **Command to See Commits with `Vehicle.h`**
+   To see the commits where `Vehicle.h` was one of the committed files, I would use: git log -- Vehicle.h
+
+7. **Command to See Commits with "file" in the Commit Message**
+To see the commits whose commit message contains the word “file,” I would use: git log --grep="file"
+
+
+8. **Object-Oriented Programming Concepts**
+I. **Inheritance**: Inheritance is a mechanism in object-oriented programming that allows one class (child class) to inherit properties and behaviors (methods) from another class (parent class). This promotes code reusability and establishes a hierarchical relationship between classes.
+
+II. **Polymorphism**: Polymorphism allows methods to do different things based on the object it is acting upon, even if they share the same name. It enables one interface to be used for a general class of actions, providing flexibility and the ability to override methods in derived classes.
+
+III. **Encapsulation**: Encapsulation is the bundling of data (attributes) and methods (functions) that operate on the data into a single unit or class, restricting direct access to some of the object's components. This helps protect the internal state of the object and allows for controlled access and modification through public methods.
+
