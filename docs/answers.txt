@@ -33,3 +33,6 @@ The main difference between the “Dictator and Lieutenants” workflow and the 
 10. How would a team of 100 developers benefit from following the “Dictator and Lieutenants” workflow instead of the “Centralized” workflow?
 
 A team of 100 developers would benefit from the “Dictator and Lieutenants” workflow by having clear leadership and a unified vision, which streamlines decision-making and reduces confusion. This model enables efficient delegation of tasks to lieutenants, allowing for parallel development efforts that enhance productivity. Additionally, the hierarchical structure fosters accountability, as developers know who to report to, and helps maintain coding standards and quality throughout the project. Overall, this workflow promotes organization and efficiency, making it well-suited for managing large teams.
+
+Git Lab Tutorials: October 25th, 2024
+Github set up: October 25th, 2024
